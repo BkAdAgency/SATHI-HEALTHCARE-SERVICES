@@ -1,98 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VIKRAM JALAN</title>
-
-<script src="https://cdn.tailwindcss.com"></script>
-
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s){
-if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}
-(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-
-fbq('init', '892947739651696');
-fbq('track', 'PageView');
-</script>
-
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=892947739651696&ev=PageView&noscript=1"/>
-</noscript>
-<!-- End Meta Pixel Code -->
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saathi Health Care Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    </style>
 </head>
+<body class="bg-gray-100">
 
-<body class="bg-white min-h-screen flex items-center justify-center p-4">
+    <!-- Navbar -->
+    <nav class="bg-blue-700 text-white p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Saathi Health Care Services</h1>
+        <div class="space-x-6">
+            <a href="#home" class="hover:underline">Home</a>
+            <a href="#services" class="hover:underline">Services</a>
+            <a href="#about" class="hover:underline">About Us</a>
+            <a href="#contact" class="hover:underline">Contact</a>
+        </div>
+    </nav>
 
-<div class="w-full max-w-sm text-center">
+    <!-- Hero Section -->
+    <section id="home" class="text-center p-16 bg-white shadow">
+        <h2 class="text-5xl font-bold text-blue-700">आपके स्वास्थ्य का सच्चा साथी</h2>
+        <p class="mt-4 text-xl">हम घर-घर जाकर मरीजों को हॉस्पिटल तक ले जाते हैं और पूरा इलाज करवाते हैं।</p>
+        <a href="https://wa.me/91XXXXXXXXXX" target="_blank">
+            <button class="mt-6 bg-green-500 text-white px-8 py-3 rounded text-lg">WhatsApp पर संपर्क करें</button>
+        </a>
+    </section>
 
-<img src="https://github.com/BkAdAgency/Telugufantasy/blob/main/teluguimg.jpg?raw=true"
-class="w-24 h-24 rounded-full mx-auto mb-4 shadow-md" alt="Profile">
+    <!-- Services -->
+    <section id="services" class="p-12 bg-gray-50">
+        <h2 class="text-4xl font-bold text-center mb-8">हमारी सेवाएं</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded shadow hover:shadow-lg">
+                <h3 class="text-2xl font-bold mb-2">🏠 Home Visit</h3>
+                <p>हमारी टीम घर-घर जाकर मरीजों की देखभाल करती है।</p>
+            </div>
+            <div class="bg-white p-6 rounded shadow hover:shadow-lg">
+                <h3 class="text-2xl font-bold mb-2">🚑 Hospital Support</h3>
+                <p>हम मरीजों को हॉस्पिटल तक पहुँचाते हैं और डॉक्टर से मिलवाते हैं।</p>
+            </div>
+            <div class="bg-white p-6 rounded shadow hover:shadow-lg">
+                <h3 class="text-2xl font-bold mb-2">💊 Complete Treatment</h3>
+                <p>हम उपचार में पूरी सहायता प्रदान करते हैं।</p>
+            </div>
+        </div>
+    </section>
 
-<h1 class="text-2xl font-bold mb-2">VIKRAM JALAN</h1>
+    <!-- About Us -->
+    <section id="about" class="p-12 bg-white">
+        <h2 class="text-4xl font-bold text-center mb-6">हमारे बारे में</h2>
+        <p class="max-w-2xl mx-auto text-center">Saathi Health Care Services एक सामाजिक संस्था है, जो हर जरूरतमंद व्यक्ति को घर से हॉस्पिटल तक सहायता प्रदान करती है।</p>
+    </section>
 
-<p class="text-green-600 text-sm font-semibold mb-3">
-🔥 <span id="memberCount">100,000</span> Active Members
-</p>
+    <!-- Contact -->
+    <section id="contact" class="p-12 bg-gray-50">
+        <h2 class="text-4xl font-bold text-center mb-6">संपर्क करें</h2>
+        <div class="max-w-md mx-auto bg-white p-6 rounded shadow">
+            <p class="mb-4"><b>📞 Mobile:</b> 9XXXXXXXXX</p>
+            <p class="mb-4"><b>💬 WhatsApp:</b> 9XXXXXXXXX</p>
+            <p class="mb-4"><b>📍 Location:</b> Lucknow, Uttar Pradesh</p>
+            <a href="https://wa.me/91XXXXXXXXXX" target="_blank">
+                <button class="bg-green-500 text-white px-6 py-3 rounded w-full">WhatsApp पर मैसेज करें</button>
+            </a>
+        </div>
+    </section>
 
-<button onclick="trackAndRedirect()" 
-class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl shadow-lg transition active:scale-95 mb-4">
-JOIN TELEGRAM NOW
-</button>
-
-<p class="text-gray-600 text-sm mb-5">
-Daily exclusive fantasy updates. Limited access.
-</p>
-
-<p class="text-[11px] text-gray-400 mt-4">
-Instant access • Free to join
-</p>
-
-<p class="text-[11px] text-gray-500 mt-6">
-CONTACT FOR ADVERTISEMENT - 
-<a href="https://t.me/BkAdAgency4" target="_blank" class="text-blue-600 font-semibold">
-@BkAdAgency4
-</a>
-</p>
-
-</div>
-
-<script>
-
-function trackAndRedirect() {
-
-  fbq('track', 'Lead', {
-    content_name: 'Telegram Join Button',
-    value: 1,
-    currency: 'INR'
-  });
-
-  setTimeout(function(){
-    window.location.href = "https://t.me/+B84Y1PQZEtFkZjY1";
-  }, 800);
-}
-
-let count = 100000;
-const counter = document.getElementById("memberCount");
-
-function updateCounter() {
-  const change = Math.floor(Math.random() * 3) + 1;
-  count += change;
-  counter.innerText = count.toLocaleString();
-}
-
-setInterval(updateCounter, 3000);
-
-</script>
-
-</body>
-</html>
+    <!--
